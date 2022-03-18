@@ -1,0 +1,52 @@
+{
+    "guitars": [
+      {
+        "manufacturer": "Harley Benton",
+        "name": "SC-DLX Gotoh Daphne Blue",
+        "thumbnail": "https://thumbs.static-thomann.de/thumb/thumb220x220/pics/prod/503576.jpg",
+        "price": "275",
+        "currency": "GBP",
+        "rating": 4.3,
+        "reviews": 6,
+        "description_items": [
+          "Deluxe Series",
+          "Weight-reduced Nyatoh body with arched top",
+          "Mahogany neck"
+        ],
+        "is_in_stock": true,
+        "weeks_to_wait": "0"
+      },
+      {
+        "manufacturer": "Gibson",
+        "name": "Les Paul Standard 50s P90",
+        "thumbnail": "https://thumbs.static-thomann.de/thumb/thumb220x220/pics/prod/462508.jpg",
+        "price": "1899",
+        "currency": "GBP",
+        "rating": 4.8,
+        "reviews": 10,
+        "description_items": [
+          "Body: Mahogany",
+          "Cream-coloured body binding",
+          "Top: Maple"
+        ],
+        "is_in_stock": false,
+        "weeks_to_wait": "5-7"
+      },
+      {
+        "manufacturer": "Epiphone",
+        "name": "Joe Bonamassa Lazarus 1959 LP",
+        "thumbnail": "https://thumbs.static-thomann.de/thumb/thumb220x220/pics/prod/525234.jpg",
+        "price": "745",
+        "currency": "GBP",
+        "rating": 4.1,
+        "reviews": 8,
+        "description_items": [
+          "Joe Bonamassa signature",
+          "body: mahogany",
+          "top: maple with AAAA flame"
+        ],
+        "is_in_stock": true
+      }
+    ]
+  }
+  
