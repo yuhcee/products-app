@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# TASK DESCRIPTION
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For this task, you will be creating a products page for a website that sells guitars. You can use this as inspiration: ["Thomann"](https://www.thomann.de/gb/lp_models.html).
 
-## Available Scripts
+Based on the example above, you are going to implement the list of products only. The filters section is not mandatory, you can implement it as a bonus step if you have time.
 
-In the project directory, you can run:
+Here are the steps you need to follow:
 
-### `npm start`
+1. Create a single page application in a framework of your choosing (React.JS, Angular,
+   Vue.JS etc.). You can scaffold the application using a command line command.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Inside the application, you will need to create a JSON file containing some FAQ data.
+   Name the file guitars.json. The data will be provided below.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Once that is finished, create a service that retrieves the information from the file at point
+   #2. Ideally, you should use a service like axios or HttpClient and the HTTP method should be GET.
 
-### `npm test`
+4. Display the data on the page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Using Bootstrap, another framework of your choice, or custom CSS that you write from
+   scratch, style the page to mimic the style from the example above.
 
-### `npm run build`
+6. Make sure the solution is also responsive and adaptive, i.e. elements change size and position based on screen resolution so that it looks good on any device and on any resolution.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+THINGS TO CONSIDER:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+• The JSON file is there to mimic a server call, so please remember to read the info using axios as you would invoke an API/server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+• You can search for any questions you have regarding the documentation of the frameworks you decide to use.
 
-### `npm run eject`
+• You can create as many components as you like.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+• You can use any extra frameworks you like (i.e. fontawesome, bootstrap, tailwind, etc.).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+• How you organize and document your code is important, so please pay attention to
+leave it in an orderly manner.
