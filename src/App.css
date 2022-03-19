@@ -1,4 +1,26 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
+.App {
+    padding: 4rem;
+}
+
+.header {
+    margin-top: 0;
+    padding: 0 2rem 1.5rem;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.product {
+    display: flex;
+    margin: 1.5rem;
+    padding: 1.2rem;
+    border: 1px solid red;
+    border-radius: 15px;
+}
